@@ -76,5 +76,6 @@ Output similar to the following should appear.
 
 
 Docker Desktop
+
 In Docker Desktop, select the Containers tab to see a list of your containers.
 
