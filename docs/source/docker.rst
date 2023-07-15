@@ -27,12 +27,16 @@ Build the container image using the following commands:
 
 In the terminal, change directory to the ``getting-started/app`` directory. Replace ``/path/to/app`` with the path to your ``getting-started/app`` directory.
 
+.. code-block:: console
+
    cd /path/to/app
 
 Build the container image.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
->>>docker build -t getting-started .
+.. code-block:: console
+
+   docker build -t getting-started .
 
 The ``docker build`` command uses the Dockerfile to build a new container image.
 
