@@ -85,3 +85,23 @@ Docker Desktop
 
 In Docker Desktop, select the Containers tab to see a list of your containers.
 
+.. tabs::
+
+   .. tab:: CLI
+
+      .. code-block:: console
+
+         docker ps
+         
+      Output similar to the following should appear.
+         
+      .. code-block:: console
+         
+         CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                      NAMES
+         df784548666d        getting-started     "docker-entrypoint.s…"   2 minutes ago       Up 2 minutes        127.0.0.1:3000->3000/tcp   priceless_mcclintock
+         
+
+   .. tab:: Docker Desktop
+
+      In Docker Desktop, select the Containers tab to see a list of your containers.
+
