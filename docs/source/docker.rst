@@ -16,7 +16,7 @@ A *container* is a sandboxed process on your machine that is isolated from all o
 * Is portable (can be run on any OS).
 * Is isolated from other containers and runs its own software, binaries, and configurations.
 
-What is a container image?🔗
+What is a container image?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When running a container, *container image* uses an isolated filesystem.This custom filesystem is provided by a container image. Since the image contains the container’s filesystem, it must contain everything needed to run an application - all dependencies, configurations, scripts, binaries, etc. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.
